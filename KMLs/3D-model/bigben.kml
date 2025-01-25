@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Placemark>
+  <name>BIG BEN</name>
+  <description>A miniature of big ben created by Tathagat Kumar</description>
+  <LookAt>
+    <longitude>-0.1245013</longitude>
+    <latitude>51.5005787</latitude>
+    <altitude>34.1184325</altitude>
+    <range>161.9638475</range>
+    <tilt>59.9979416</tilt>
+    <heading>-135.8624720</heading>
+  </LookAt>
+  <Model id="bigben">
+    <altitudeMode>relativeToGround</altitudeMode>
+    <Location>
+      <longitude>-0.1229907</longitude>
+      <latitude>51.5006720</latitude>
+      <altitude>0</altitude>
+    </Location>
+    <Orientation>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <roll>0</roll>
+    </Orientation>
+    <Scale>
+      <x>100</x>
+      <y>100</y>
+      <z>100</z>
+    </Scale>
+  <Link>
+    <href>bigben.kmz/files/bigben.dae</href>
+  </Link>
+  <ResourceMap id="resourcemap_for_bigben">
+    <Alias>
+      <sourceHref>../files/Cube.001 Base Color.png</sourceHref>
+      <targetHref>C:\Users\KIIT0001\Downloads\files\Cube.001 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.002 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.002 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.003 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.003 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.004 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.004 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.005 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.005 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.006 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.006 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.007 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.007 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.008 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.008 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.009 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.009 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.010 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.010 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.011 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.011 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.012 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.012 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.013 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.013 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.014 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.014 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.015 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.015 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.016 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.016 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.017 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.017 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.018 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.018 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.019 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.019 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.020 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.020 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.021 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.021 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.022 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.022 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.023 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.023 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.024 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.024 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.025 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.025 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.026 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.026 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.027 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.027 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.028 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.028 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.029 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.029 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.030 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.030 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.031 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.031 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.032 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.032 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.033 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.033 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.034 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.034 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.035 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.035 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.036 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.036 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.037 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.037 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.038 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.038 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.039 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.039 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.040 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.040 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.041 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.041 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.042 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.042 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/Cube.043 Base Color.png</sourceHref>
+        <targetHref>../files/Cube.043 Base Color.png</targetHref>
+    </Alias>
+    <Alias>
+        <sourceHref>../files/BIGBEN.png</sourceHref>
+        <targetHref>../files/BIGBEN.png</targetHref>
+    </Alias>
+
+    </ResourceMap>
+  </Model>
+</Placemark>
+</kml>
