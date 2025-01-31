@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Artboard? mainArtBoard;
   SMINumber? check;
   late Timer _timer;
+  bool _press = false;
 
   @override
   void initState() {
@@ -65,8 +66,10 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text('VOICE UI'),
         ),
         body: mainArtBoard!=null ? GestureDetector(
-          onLongPress: (){
-            _timer = Timer.periodic(const Duration(milliseconds: 150), (timer) {
+          onTap: (){
+            _press = !_press;
+            if(_press){
+              _timer = Timer.periodic(const Duration(milliseconds: 150), (timer) {
                 setState(() {
                   if(check?.value == 999 || check?.value == 9 || check?.value == 11) {
                     check?.value = 0;
@@ -113,20 +116,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   }
                 });
               });
-
-            // while(check?.value != 9){
-            //   check?.value++;
-            //   Timer(const Duration(seconds: 2), () {});
-            // }
-            print(check?.value);
-          },
-          onLongPressUp: (){
-            _timer.cancel();
-            if(check?.value == 0 ||check?.value == 1 ||check?.value == 2 ||check?.value == 3 ||check?.value == 4 ||check?.value == 5 ||check?.value == 6 ||check?.value == 7 ||check?.value == 8 ){
-              check?.value = 10;
-              print(check?.value);
             }
-        },
+            if(!_press){
+              _timer.cancel();
+              if(check?.value == 0 ||check?.value == 1 ||check?.value == 2 ||check?.value == 3 ||check?.value == 4 ||check?.value == 5 ||check?.value == 6 ||check?.value == 7 ||check?.value == 8 ){
+                check?.value = 10;
+                print(check?.value);
+              }
+            }
+          },
           child: SizedBox(
               width : double.infinity,
               height: double.infinity,
