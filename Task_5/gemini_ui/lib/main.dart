@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Artboard? mainArtBoard;
   SMINumber? check;
   late Timer _timer;
+  bool _press = false;
 
   @override
   void initState() {
@@ -66,44 +67,46 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text('GEMINI'),
         ),
         body: mainArtBoard!=null ? GestureDetector(
-          onLongPress: (){
-            _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
-              setState(() {
-                if (check?.value == 8 || check?.value == 9 || check?.value == 10 ) {
-                  check?.value = 0;
-                  Timer(const Duration(seconds: 0), () {});
-                }
-                else if (check?.value == 0) {
-                  check?.value = 3;
-                  Timer(const Duration(seconds: 0), () {});
-                }
-                else if (check?.value == 3.0) {
-                  check?.value = 2;
-                  Timer(const Duration(seconds: 0), () {});
-                }
-                else if (check?.value == 2) {
-                  check?.value = 1;
-                  Timer(const Duration(seconds: 2), () {});
-                }
-                else if (check?.value == 1) {
-                  check?.value = 4;
-                  Timer(const Duration(seconds: 2), () {});
-                }
-                else if (check?.value == 4) {
-                  check?.value = 3;
-                  Timer(const Duration(seconds: 2), () {});
-                }
+          onTap: (){
+            _press = !_press;
+            if(_press){
+                _timer = Timer.periodic(const Duration(milliseconds: 700), (timer) {
+                setState(() {
+                  if (check?.value == 8 || check?.value == 9 || check?.value == 10 ) {
+                    check?.value = 0;
+                    Timer(const Duration(seconds: 0), () {});
+                  }
+                  else if (check?.value == 0) {
+                    check?.value = 3;
+                    Timer(const Duration(seconds: 0), () {});
+                  }
+                  else if (check?.value == 3.0) {
+                    check?.value = 2;
+                    Timer(const Duration(seconds: 0), () {});
+                  }
+                  else if (check?.value == 2) {
+                    check?.value = 1;
+                    Timer(const Duration(seconds: 2), () {});
+                  }
+                  else if (check?.value == 1) {
+                    check?.value = 4;
+                    Timer(const Duration(seconds: 2), () {});
+                  }
+                  else if (check?.value == 4) {
+                    check?.value = 3;
+                    Timer(const Duration(seconds: 2), () {});
+                  }
+                });
               });
-            });
-
-            },
-          onLongPressUp: (){
-            _timer.cancel();
-            if (check?.value == 0 || check?.value == 3 || check?.value == 2 || check?.value == 1 || check?.value == 4){
-              check?.value = 9;
-              Timer(const Duration(seconds: 2), () {});
             }
-          },
+            if(!_press){
+                _timer.cancel();
+              if (check?.value == 0 || check?.value == 3 || check?.value == 2 || check?.value == 1 || check?.value == 4){
+                check?.value = 9;
+                Timer(const Duration(seconds: 2), () {});
+            }
+            }
+            },
           child: SizedBox(
               width : double.infinity,
               height: double.infinity,
